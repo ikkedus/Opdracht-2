@@ -25,7 +25,7 @@ namespace Opdracht3
                 input = Console.ReadLine();
                 parseSucces = int.TryParse(input, out inputNumber);
             }
-          
+            //wilden datetime
             int rest = inputNumber%HOURINSECONDS;
             int hours = (inputNumber - rest)/HOURINSECONDS;
             int seconds = rest%MINUTEINSECONDS;
